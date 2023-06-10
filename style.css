@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --text-color: white;
+  --bg-url: url(./img/Background.jpg);
+  --stronk-color: rgba(255, 255, 255, 0.5);
+  --surfece-color: rgba(0, 0, 0, 0.1);
+  --surfece-color-hover: rgba(255, 255, 255, 0.5);
+  --button--bg-url: url(./img/MoonStars.svg);
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(./img/background1.jpg);
+  --stronk-color: rgba(0, 0, 0, 0.5);
+  --surfece-color: rgba(255, 255, 255, 0.1);
+  --surfece-color-hover: rgba(0, 0, 0, 0.2);
+  --button--bg-url: url(./img/Sun.svg);
+}
+
+ul {
+  list-style: none;
+}
+
+.header img {
+  max-width: 100%;
+  width: 120px;
+  margin: 40px auto 10px auto;
+}
+p {
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin-top: 25px;
+}
+
+.button span {
+  display: block;
+  height: 24px;
+  width: 54px;
+  background: var(--surfece-color);
+  border: 1px solid var(--stronk-color);
+  border-radius: 9999px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.button button {
+  width: 32px;
+  height: 32px;
+  background: white var(--button--bg-url) no-repeat center;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  margin-left: -10px;
+  margin-top: -5px;
+}
+
+.light button {
+  left: 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.input ul li a {
+  padding: 15px 150px;
+  border-radius: 10px;
+  border: 1px solid var(--stronk-color);
+  background: var(--surfece-color);
+}
+
+.input ul li a:hover {
+  background-color: var(--surfece-color-hover);
+  border: 1px solid var(--text-color);
+}
+
+.a {
+  margin-top: 15px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer span {
+  text-decoration: underline;
+}
+
+.b {
+  margin-top: 10px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>projetinho</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+    <div class="header">
+      <img src="./img/Avatar.png" alt="homem numa foto">
+      <p>@emersonpachecodesouza</p>
+    </div>
+    <div class="button" onclick="toggLeMode()">
+
+      <span><button></button></span>
+
+    </div>
+    <div class="input">
+      <ul>
+        <li>
+          <a href="">
+            <p>Inscreva-se no NLW</p>
+          </a>
+        </li>
+        <li class="a">
+          <a href="">
+            <p>Baixe meu e-book</p>
+          </a>
+        </li>
+        <li class="a">
+          <a href="">
+            <p>Veja meu portfólio</p>
+          </a>
+        </li>
+        <li class="a">
+          <a href="">
+            <p>Conheça o Explorer</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="logos">
+
+      <img src="./img/Vector.svg"" alt="">
+       
+      <img src=" ./img/Vector4.svg" alt="">
+
+      <img src=" ./img/Vector1.svg" alt="">
+
+      <img src="./img/Vector2.svg" alt="">
+
+    </div>
+    <div class="footer">
+      <p>Densenvolvido por <span>Emerson</span> </p>
+      <p class="b">by</p>
+      <p class="b">rockeseat</p>
+    </div>
+    <script>
+      function toggLeMode() {
+        const html = document.documentElement
+        html.classList.toggle('light')
+      }
+    </script>
+  </main>
+</body>
+
+</html>
