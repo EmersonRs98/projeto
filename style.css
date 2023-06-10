@@ -125,3 +125,26 @@ a {
 .b {
   margin-top: 10px;
 }
+
+@media (max-width: 600px) {
+  :root {
+    --bg-url: url(./img/Background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .light {
+    --bg-url: url(./img/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .input ul li a {
+    padding: 10px 80px;
+  }
+  .logos {
+    margin-top: 40px;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+}
